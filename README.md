@@ -5,7 +5,7 @@
 A Zod-like schema validator in ~250 LoC. Chainable builders, full TypeScript inference, `refine` / `transform`, helpful error paths. Zero dependencies.
 
 ```ts
-import { v, type Infer } from "tiny-validator";
+import { v, type Infer } from "@p-vbordei/tiny-validator";
 
 const User = v.object({
   name: v.string().min(1),
@@ -30,7 +30,7 @@ if (!r.success) {
 ## Install
 
 ```sh
-npm install tiny-validator
+npm install @p-vbordei/tiny-validator
 ```
 
 ## API
