@@ -1,6 +1,6 @@
 {
   "name": "@p-vbordei/tiny-validator",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "A tiny Zod-like schema validator with TypeScript inference. Chainable builders, refine/transform, helpful error paths. Zero dependencies, ~250 LoC.",
   "keywords": [
     "validator",
