@@ -2,6 +2,10 @@
 
 [![ci](https://github.com/p-vbordei/tiny-validator/actions/workflows/ci.yml/badge.svg)](https://github.com/p-vbordei/tiny-validator/actions/workflows/ci.yml)
 
+[![npm](https://img.shields.io/npm/v/%40p-vbordei%2Ftiny-validator.svg)](https://www.npmjs.com/package/@p-vbordei/tiny-validator)
+[![downloads](https://img.shields.io/npm/dm/%40p-vbordei%2Ftiny-validator.svg)](https://www.npmjs.com/package/@p-vbordei/tiny-validator)
+[![bundle](https://img.shields.io/bundlejs/size/%40p-vbordei%2Ftiny-validator)](https://bundlejs.com/?q=%40p-vbordei%2Ftiny-validator)
+
 A Zod-like schema validator in ~250 LoC. Chainable builders, full TypeScript inference, `refine` / `transform`, helpful error paths. Zero dependencies.
 
 ```ts
