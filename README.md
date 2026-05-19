@@ -1,5 +1,7 @@
 # tiny-validator
 
+[![ci](https://github.com/p-vbordei/tiny-validator/actions/workflows/ci.yml/badge.svg)](https://github.com/p-vbordei/tiny-validator/actions/workflows/ci.yml)
+
 A Zod-like schema validator in ~250 LoC. Chainable builders, full TypeScript inference, `refine` / `transform`, helpful error paths. Zero dependencies.
 
 ```ts
